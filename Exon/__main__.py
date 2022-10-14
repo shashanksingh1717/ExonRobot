@@ -122,25 +122,30 @@ PM_START_TEXT = """
 
    ━━━━━━━ *ᴇʀᴇɴ ʏᴇᴀɢᴇʀ* ━━━━━━━
 
-   ᴇʀᴇɴ ʏᴇᴀɢᴇʀ ʀᴏʙᴏᴛ ɪꜱ ᴀ 
 
- ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 
-   ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
 
-   ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
-   ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ
 
-   ᴘʟᴜɢɪɴꜱ ʟɪᴋᴇ ; *ꜰɪʟᴛᴇʀꜱ* , *ɴᴏᴛᴇꜱ* , 
+       ᴇʀᴇɴ ʏᴇᴀɢᴇʀ  ɪꜱ ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ  ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
+ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ!
+   
+ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!
 
-   *ᴡᴇʟᴄᴏᴍᴇ* , *ɢᴏᴏᴅ ʙʏᴇ* , *ʙᴀɴɴɪɴɢ* , 
 
-   *ᴍᴜᴛɪɴɢ*, *ʟᴏᴄᴋs* ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.
 
-   *ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ!*
 
-   ━━━━━━━ *ᴇʀᴇɴ ʏᴇᴀɢᴇʀ* ━━━━━━━ 
+
+  
+
+  
+
+
+
+
+
+━━━━━━━ *ᴇʀᴇɴ ʏᴇᴀɢᴇʀ* ━━━━━━━ 
 
    ғɪʀꜱᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ᴛʜᴇɴ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ᴍᴀꜱᴛᴇʀ
 """
@@ -155,19 +160,19 @@ I'm ᴀᴍ  ᴀʟɪᴠᴇ  ᴍᴀꜱᴛᴇʀ !
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴍᴇ ᴍᴀꜱᴛᴇʀ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
         InlineKeyboardButton(text=" ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ 🌐", url="https://t.me/venomofwrite"
+            text="sᴏᴜʀᴄᴇ ⚰️", url="https://t.me/venomofwrite"
         ),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 🥂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 🗿", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇs 🏃‍♂️", url=f"https://t.me/{UPDATES_CHANNEL}"
+            text="ᴜᴘᴅᴀᴛᴇs 🔱", url=f"https://t.me/{UPDATES_CHANNEL}"
         ),
     ],
 ]
