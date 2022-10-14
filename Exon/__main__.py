@@ -147,7 +147,7 @@ PM_START_TEXT = """
 
 
 GROUP_START_TEXT = """
-I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
+I'm ᴀᴍ  ᴀʟɪᴠᴇ  ᴍᴀꜱᴛᴇʀ !
 
 ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: {} 
 """
@@ -161,7 +161,7 @@ buttons = [
     [
         InlineKeyboardButton(text=" ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ 🌐", url="https://github.com/TEAM-ABG/ExonRobot"
+            text="sᴏᴜʀᴄᴇ 🌐", url="https://t.me/venomofwrite"
         ),
     ],
     [
