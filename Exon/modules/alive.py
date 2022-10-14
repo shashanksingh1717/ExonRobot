@@ -45,7 +45,7 @@ ASAU = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴍᴀꜱᴛᴇʀ",
             url=f"https://t.me/{fuck}?startgroup=true",
         ),
     ],
@@ -63,14 +63,14 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.1)
     umm = await m.reply_sticker(
-        "CAACAgUAAx0CZIiVngABBHAzYwdi9OIVTQ7DYELAqMl46fgnK4wAAjsIAAKagolX-O0V64tvzK8pBA"
+        "CAACAgUAAxkBAAEGF3JjSdd8JenT0RckcX9Ma5NrueX43QACEgcAArj9UFYu9bmZw8QZFCoE"
     )
     await asyncio.sleep(0.1)
     await m.reply_photo(
         random.choice(PHOTO),
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪsʜɴᴏɪ](https://t.me/{OWNER_USERNAME})
+» **ᴍʏ ᴏᴡɴᴇʀ :** [⏤‌•𓆩᪵ शशांक 𓆪‌!](https://t.me/{OWNER_USERNAME})
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
