@@ -103,7 +103,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
 def kuki(update: Update, context: CallbackContext):
     update.effective_user
     message = update.effective_message
-    msg = "ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴀʙʏ "
+    msg = "ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ᴍᴀꜱᴛᴇʀ "
     keyboard = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="add_chat({})")],
