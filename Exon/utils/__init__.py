@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 # ""DEAR PRO PEOPLE,  DON'T REMOVE & CHANGE THIS LINE
-# TG :- @Abishnoi1M
-#     MY ALL BOTS :- Abishnoi_bots
-#     GITHUB :- KingAbishnoi ""
+# TG :- @venomofwrite
+#     MY ALL BOTS :- real_homie
+#     GITHUB :- venomofwrite ""
 
 
 from .progress import progress
