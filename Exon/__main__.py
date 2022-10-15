@@ -796,7 +796,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
                 caption=f"""
-ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
+ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ᴍᴀꜱᴛᴇʀ.....
 
 ━━━━━━━━━━━━━
 ⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [⏤‌•𓆩᪵ शशांक 𓆪‌ !](https://t.me/{OWNER_USERNAME})
@@ -858,7 +858,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info(f"ᴇxᴏɴ sᴛᴀʀᴛᴇᴅ, ᴜsɪɴɢ ʟᴏɴɢ ᴘᴏʟʟɪɴɢ. | SUPPORT: [@{SUPPORT_CHAT}]")
+        LOGGER.info(f"ᴇʀᴇɴ ʏᴇᴀɢᴇʀ sᴛᴀʀᴛᴇᴅ, ᴜsɪɴɢ ʟᴏɴɢ ᴘᴏʟʟɪɴɢ. | SUPPORT: [@{SUPPORT_CHAT}]")
         updater.start_polling(
             timeout=15,
             read_latency=4,
