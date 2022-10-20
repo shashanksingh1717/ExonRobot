@@ -240,14 +240,14 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#ᴜsᴇʀ_ᴊᴏɪɴᴇᴅ\n"
-                    f"ᴘʏᴀʀᴇ ʙᴀᴄʜᴏ ᴊᴏ ᴋᴜᴄʜ ᴋᴀʀɴᴀ ᴛʜᴀ ᴋᴀʀ ʟᴏ ᴀʙʙᴜ ᴀᴀ ʀᴀʜᴇ ʜᴀɪɴ 🥰"
-                  )
+                    f"ʙᴏᴛ ᴏᴡɴᴇʀ ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ 🔱"
+                )
                 continue
 
             # Welcome Devs
             if new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "ᴘʏᴀʀᴇ ʙᴀᴄʜᴏ ᴊᴏ ᴋᴜᴄʜ ᴋᴀʀɴᴀ ᴛʜᴀ ᴋᴀʀ ʟᴏ ᴀʙʙᴜ ᴀᴀ ʀᴀʜᴇ ʜᴀɪɴ !",
+                    "ʙᴏᴛ ᴏᴡɴᴇʀ ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ🔱!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -255,7 +255,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "ᴘʏᴀʀᴇ ʙᴀᴄʜᴏ ᴊᴏ ᴋᴜᴄʜ ᴋᴀʀɴᴀ ᴛʜᴀ ᴋᴀʀ ʟᴏ ᴀʙʙᴜ ᴀᴀ ʀᴀʜᴇ ʜᴀɪɴ !",
+                    "ʙᴏᴛ ᴏᴡɴᴇʀ ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ 🔱 !",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -263,7 +263,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "ᴘʏᴀʀᴇ ʙᴀᴄʜᴏ ᴊᴏ ᴋᴜᴄʜ ᴋᴀʀɴᴀ ᴛʜᴀ ᴋᴀʀ ʟᴏ ᴀʙʙᴜ ᴀᴀ ʀᴀʜᴇ ʜᴀɪɴ,
+                    "ʙᴏᴛ ᴏᴡɴᴇʀ ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ 🔱",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -271,8 +271,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome WOLVES
             elif new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "ᴘʏᴀʀᴇ ʙᴀᴄʜᴏ ᴊᴏ ᴋᴜᴄʜ ᴋᴀʀɴᴀ ᴛʜᴀ ᴋᴀʀ ʟᴏ ᴀʙʙᴜ ᴀᴀ ʀᴀʜᴇ ʜᴀɪɴ!",
-                    reply_to_message_id=reply,
+                    "ʙᴏᴛ ᴏᴡɴᴇʀ ᴊᴜsᴛ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ 🔱 !", reply_to_message_id=reply
                 )
                 continue
 
